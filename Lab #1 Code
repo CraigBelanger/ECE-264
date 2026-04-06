@@ -1,0 +1,35 @@
+x = int(input("Input a number:"))
+if x%2 == 0:
+    print(x,"is Even")
+else:
+    print(x,"is Odd")
+
+
+
+if 1024 % 4 == 0:
+    print("1024 is divisible by 4")
+else:
+    print("1024 is not divisible by 4")
+if 2 % 10 == 0:
+    print("2 is a multiple of 10")
+else: print("2 is not a multiple of 10")
+
+
+
+x = [0,1,2,3,4,5]
+Xsquared = [i ** 2 for i in x]
+Xcubed = [i ** 3 for i in x]
+print("number\tsquared\tcubed\n", x[0], "\t", Xsquared[0], "\t", Xcubed[0], "\n", x[1], "\t", Xsquared[1], "\t", Xcubed[1], "\n", x[2], "\t", Xsquared[2], "\t", Xcubed[2], "\n", x[3], "\t", Xsquared[3], "\t", Xcubed[3], "\n", x[4], "\t", Xsquared[4], "\t", Xcubed[4], "\n", x[5], "\t", Xsquared[5], "\t", Xcubed[5])
+
+
+
+x = int(input("input a 5 digit number: "))
+x1 = x // 10000
+x2 = (x // 1000) % 10
+x3 = (x // 100) % 10
+x4 = (x // 10) % 10
+x5 = x % 10
+print(x1,"   ",x2,"   ",x3,"   ",x4,"   ",x5)
+
+
+
